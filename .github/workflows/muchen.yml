@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello
-        run: echo "Hello My name is Obinna"
-        run: echo "This is my first CI pipeline"
+        run: | 
+          echo "Hello My name is Obinna"
+          echo "I am so happy to be writing my first workflow"
+        
